@@ -1,0 +1,18 @@
+{% extends 'base_no_content.html' %}
+{% load news_tags %}
+{% block title_page %} Registration | {{ block.super }} {% endblock %}
+{% block title %} Registration {% endblock %}
+
+{% block content %}
+    <form method = "post">
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <div class = "d-grid gap-2">
+            <button type = "submit"
+                    class = "btn btn-primary">Registration
+            </button>
+        </div>
+    </form>
+{% endblock %}

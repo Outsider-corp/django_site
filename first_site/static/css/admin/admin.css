@@ -1,0 +1,15 @@
+#header, .module h2, .module caption, .inline-group h2 {
+    background: rebeccapurple;
+}
+
+#branding h1 a:link, #branding h1 a:visited {
+    color: white;
+}
+
+div.breadcrumbs {
+    background: #361b53;
+}
+
+a:link, a:visited {
+    color: #feffbd;
+}
